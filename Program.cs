@@ -10,6 +10,7 @@ namespace NoasArkInheritance
             NoasArk noasArk = new NoasArk(numberOfCages: 20);
 
             //Animal animal = new Animal("Tiger", birthdate: new DateTime(2010, 1, 1), gender: Gender.Female);
+            //noasArk.Load(animal);
 
             //Tiger tiger = new Tiger(birthdate: new DateTime(2010, 1, 1), gender: Gender.Female);
             Tiger tiger = new Tiger(stripeCount: 10, birthdate: new DateTime(2010, 11, 10), gender: Gender.Female);
@@ -18,7 +19,6 @@ namespace NoasArkInheritance
 
             Rabbit rabbit = new Rabbit(birthdate: new DateTime(2016, 1, 1), gender: Gender.Male);
 
-            //noasArk.Load(animal);
             noasArk.Load(tiger);
 
             noasArk.Load(panda);
