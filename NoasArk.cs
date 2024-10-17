@@ -33,7 +33,6 @@ namespace NoasArkInheritance
                 animal.Speak();
 
                 WriteLine(animal.GetType());
-
             }
         }
     }
